@@ -12,11 +12,11 @@ namespace Tyuiu.TolmachevVV.CS.Sprint1.Task1
         static void Main(string[] args)
         {
             DataService service1 = new DataService();
-            Console.Title = "Спринт #0 | Выполнил: Толмачев. В. В. | ПКТб-23-1";
+            Console.Title = "Спринт #1 | Выполнил: Толмачев. В. В. | ПКТб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("*Тема: Алгоритмы линейной структуры                                       *");
-            Console.WriteLine("*Задание #2                                                               *");
+            Console.WriteLine("*Задание #1                                                               *");
             Console.WriteLine("*Вариант #29                                                              *");
             Console.WriteLine("*Выполнил: Толмачев Виталий Владимирович | ПКТб 23-1                      *");
             Console.WriteLine("***************************************************************************");

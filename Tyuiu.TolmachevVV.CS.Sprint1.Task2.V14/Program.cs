@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.TolmachevVV.CS.Sprint1.Task0.Lib;
+using Tyuiu.TolmachevVV.CS.Sprint1.Task2.V14.Lib;
 
-namespace Tyuiu.TolmachevVV.CS.Sprint1.Task0
+namespace Tyuiu.TolmachevVV.CS.Sprint1.Task2.V14
 {
     class Program
     {
@@ -16,18 +16,18 @@ namespace Tyuiu.TolmachevVV.CS.Sprint1.Task0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("*Тема: Алгоритмы линейной структуры                                       *");
-            Console.WriteLine("*Задание #0                                                               *");
-            Console.WriteLine("*Вариант #10                                                              *");
+            Console.WriteLine("*Задание #2                                                               *");
+            Console.WriteLine("*Вариант #14                                                              *");
             Console.WriteLine("*Выполнил: Толмачев Виталий Владимирович | ПКТб 23-1                      *");
-            Console.WriteLine("***************************************************************************");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("(3 / 6 - 4 ) * 3                                                          *");
+            Console.WriteLine("Введите температуру в градусах Кельвина:                                  *");
+            int a = int.Parse(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine((service1.Calculate()) + "                                                                       *");
+            Console.WriteLine(service1.ConvertKelvinToCelsius(a) + "                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }
