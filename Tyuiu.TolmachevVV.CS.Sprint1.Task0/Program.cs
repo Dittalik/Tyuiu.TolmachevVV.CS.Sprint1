@@ -11,25 +11,23 @@ namespace Tyuiu.TolmachevVV.CS.Sprint1.Task0
     {
         static void Main(string[] args)
         {
-            int x = 10;
-            int y = 9;
-            int z = 3;
+            DataService service1 = new DataService();
             Console.Title = "Спринт #0 | Выполнил: Толмачев. В. В. | ПКТб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("*Тема: Алгоритмы линейной структуры                                       *");
-            Console.WriteLine("*Задание #1                                                               *");
-            Console.WriteLine("*Вариант #20                                                              *");
+            Console.WriteLine("*Задание #0                                                               *");
+            Console.WriteLine("*Вариант #10                                                              *");
             Console.WriteLine("*Выполнил: Толмачев Виталий Владимирович | ПКТб 23-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"{x} + {y} / {z}                                                                *");
+            Console.WriteLine("(3 / 6 - 4 ) * 3                                                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(DataService.Calc(x, y, z) + "                                                                        *");
+            Console.WriteLine((service1.Calculate()) + "                                                                       *");
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }

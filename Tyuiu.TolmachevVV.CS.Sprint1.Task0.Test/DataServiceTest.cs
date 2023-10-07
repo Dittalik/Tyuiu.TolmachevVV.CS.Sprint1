@@ -5,12 +5,15 @@ using Tyuiu.TolmachevVV.CS.Sprint1.Task0.Lib;
 namespace Tyuiu.TolmachevVV.CS.Sprint1.Task0.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        
+        public void CalculateCheck()
         {
-            Assert.AreEqual(13, DataService.Calc(10, 9, 3));
+            DataService service1 = new DataService();
+
+            Assert.AreEqual(-12, service1.Calculate());
         }
     }
 }

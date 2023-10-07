@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.TolmachevVV.CS.Sprint1.Task1.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task1V12
     {
-        public static int Calc(int a, int b, int c)
+        public double Calculate(double x, double y)
         {
-            return a * b * c / (a + b + c);
+            return (x + y) / 6;
         }
     }
 }

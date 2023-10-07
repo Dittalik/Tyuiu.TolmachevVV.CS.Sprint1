@@ -8,9 +8,10 @@ namespace Tyuiu.TolmachevVV.CS.Sprint1.Task1.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CalculateCheck()
         {
-            Assert.AreEqual(3, DataService.Calc(3, 3, 3));
+            DataService service1 = new DataService();
+            Assert.AreEqual(1, service1.Calculate(3, 3));
         }
     }
 }
