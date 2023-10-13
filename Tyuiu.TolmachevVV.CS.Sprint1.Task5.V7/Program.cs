@@ -16,8 +16,8 @@ namespace Tyuiu.TolmachevVV.CS.Sprint1.Task5.V7
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*Спринт #1                                                                *");
             Console.WriteLine("*Тема: Алгоритмы линейной структуры                                       *");
-            Console.WriteLine("*Задание #4                                                               *");
-            Console.WriteLine("*Вариант #15                                                              *");
+            Console.WriteLine("*Задание #5                                                               *");
+            Console.WriteLine("*Вариант #7                                                              *");
             Console.WriteLine("*Выполнил: Толмачев Виталий Владимирович | ПКТб 23-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
